@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: ;
+}
+
+.header{
+    background-color: rgb(160, 211, 255);
+}
+
+
+
+.item {
+    flex-basis: 200px;
+    height: 100px;
+    background-color: #ffc5da;
+    color: #fff;
+    margin: 10px;
+
+}
+
+.flex-container {
+    height: 1000px;
+    display: flex;
+    justify-content: center ;
+    align-items: end;
+}
